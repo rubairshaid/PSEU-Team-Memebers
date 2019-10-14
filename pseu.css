@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+*{
+    font-family: Segoe UI;
+}
  body , html{
     
     width:100%;
@@ -183,22 +186,30 @@ header{
     right: 0;
 }
 
-.rubaUser{
-    height: 18%;
-    width: 90%;
-    overflow: hidden;
-    position:absolute;
-    display: block;
-    margin-top: 10%;
-    margin-left:10%;
+.userRectangle{
+    height: 30%;
+    width:100%;
+    display:flex;
+    justify-content: flex-start;;
+    margin-top: 12%;
+    position: absolute;
+    left: 0;
+}
 
+.rubaUser{
+    height: 65%;
+    overflow: hidden;
+    margin-left: 8%;
+   
 }
 
 .delIcon{
-    left: 2%;
-    width:4%;
+    width: 4%;
     position: absolute;
-    margin-top: 10%;
+    margin-left: 2%;
+    margin-top: 5%;
+
     
 }
+
 
