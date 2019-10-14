@@ -185,11 +185,20 @@ header{
 
 .rubaUser{
     height: 18%;
-    width: 100%;
+    width: 90%;
     overflow: hidden;
     position:absolute;
-    left: 0;
+    display: block;
     margin-top: 10%;
+    margin-left:10%;
 
+}
+
+.delIcon{
+    left: 2%;
+    width:4%;
+    position: absolute;
+    margin-top: 10%;
+    
 }
 
